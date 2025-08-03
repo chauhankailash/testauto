@@ -20,7 +20,7 @@ class StringTest {
         String str = "testauto";
         assertTrue(str.startsWith("test"), "String should start with 'test'");
     }
-
+//test comment
     @Test
     void testStringEquality() {
         String str1 = "testauto";
