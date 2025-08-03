@@ -8,7 +8,7 @@ class StringTest {
         String str = "testauto";
         assertEquals(8, str.length(), "String length should be 8");
     }
-
+//test
     @Test
     void testStringContains() {
         String str = "testauto";
