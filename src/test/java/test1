@@ -1,0 +1,30 @@
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class StringTest {
+
+    @Test
+    void testStringLength() {
+        String str = "testauto";
+        assertEquals(8, str.length(), "String length should be 8");
+    }
+
+    @Test
+    void testStringContains() {
+        String str = "testauto";
+        assertTrue(str.contains("auto"), "String should contain 'auto'");
+    }
+
+    @Test
+    void testStringStartsWith() {
+        String str = "testauto";
+        assertTrue(str.startsWith("test"), "String should start with 'test'");
+    }
+
+    @Test
+    void testStringEquality() {
+        String str1 = "testauto";
+        String str2 = "testauto";
+        assertEquals(str1, str2, "Strings should be equal");
+    }
+}
